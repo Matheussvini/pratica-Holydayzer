@@ -1,6 +1,6 @@
 import express from 'express'
 import cors from 'cors'
-import { holidays } from './contants.js';
+import { holidays } from './constants.js';
 
 const app = express();
 app.use(cors());
